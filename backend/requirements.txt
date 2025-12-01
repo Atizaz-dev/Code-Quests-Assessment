@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+langchain==0.3.7
+python-multipart
+langchain-openai==0.2.8
+langchain-community==0.3.7
+langchain-pinecone==0.2.0
+pinecone-client
+pypdf
+python-dotenv
+langchain-core
