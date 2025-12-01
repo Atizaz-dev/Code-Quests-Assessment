@@ -24,7 +24,7 @@ class IngestionService:
             if file.filename.endswith(".pdf"):
                 loader = PyPDFLoader(temp_filename)
             else:
-                loader = TextLoader(temp_filename)
+                loader = TextLoader(temp_filename, encoding="utf-8")
             
             docs = loader.load()
 
